@@ -1,0 +1,18 @@
+Scanning
+
+Ping
+
+Ping -c 4 <IP ADDRESS>
+
+Nmap Port Scan
+
+nmap -Pn -sS -p- -T5 <IP ADDRESS>
+nmap -Pn -sS -p <port numbers> -T5 -A <IP ADDRESS>
+
+Dirb (Directory Discovery)
+
+dirb http://<Host>
+
+Nikto Web Server Enumeration
+
+nikto -host http://<host>
